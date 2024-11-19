@@ -402,4 +402,295 @@
 </html>
 
 
+//tela 1 de cadastro profissional//
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css"/>
+        <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
 
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="css/bootstrap-grid.rtl.min.css" type="text/css"/>
+
+
+        <title>Cadastro do Profissional</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <div class="container-cadastro">
+            <div class="card">
+                <div class="card-header text-center">
+                    <h4>Cadastro do Profissional</h4>
+                </div>
+                <div class="card-body">
+                    <form action="#" method="POST">
+                        <div class="mb-3">
+                            <label for="name" class="form-label">Nome completo</label>
+                            <input type="text" class="form-control" id="name" placeholder="Digite seu nome" required>
+                        </div>
+
+                        <div class="mb-3">
+                            <label for="name" class="form-label">CPF e RG</label>
+                            <input type="text" class="form-control mb-1" id="cpf" placeholder="CPF" required>
+                            <input type="text" class="form-control mb-1" id="rg" placeholder="RG" required>
+                        </div>
+
+                        <div class="mb-3">
+                            <label class="form-label">Sexo</label>
+                            <div class="form-check text-center">
+                                <input class="form-check-input" type="radio" name="gender" id="male" value="masculino" required>
+                                <label class="form-check-label" for="male">Masculino</label>
+                            </div>
+                            <div class="form-check text-center">
+                                <input class="form-check-input" type="radio" name="gender" id="female" value="feminino" required>
+                                <label class="form-check-label" for="female">Feminino</label>
+                            </div>
+                        </div> 
+                        <div class="mb-3">
+                            <label for="name" class="form-label">Número de telefone e email</label>
+                            <input type="text" class="form-control mb-1" id="numero" placeholder="Número" required>
+                            <input type="text" class="form-control mb-1" id="email" placeholder="Email" required>
+                        </div>
+                        <a href="cadastropro2.html" class="btn btn-primary w-100">Avançar</a>    
+                    </form>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
+
+//tela 2 cadastro profissional//
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css"/>
+        <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="css/bootstrap-grid.rtl.min.css" type="text/css"/>
+
+
+        <title>Cadastro do Profissional</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <div class="container-cadastro">
+            <div class="card">
+                <div class="card-header text-center">
+                    <h4>Cadastro do Profissional</h4>
+                </div>
+                <div class="card-body">
+                    <form action="#" method="POST">
+                        <div class="mb-3">
+                            <label for="name" class="form-label">Escolaridade</label>
+                            <input type="text" class="form-control" id="name" placeholder="Ex:Ensino médio completo" required>
+                        </div>
+
+                        <div class="mb-3">
+                            <label for="name" class="form-label">Cargo</label>
+                            <input type="text" class="form-control" id="cpf" placeholder="Selecione seu cargo" required>
+                        </div>
+
+                        <div class="mb-3">
+                            <label for="name" class="form-label">Instituação de formação</label>
+                            <div class="d-flex">
+                                <input type="text" class="form-control me-2" id="formacao" placeholder="Ex:QI" style="flex: 2;" required> 
+                                <button class="btn btn-outline-light" type="button" id="button-addon">
+                                    <i class="bi bi-paperclip"></i>
+                                </button>
+                            </div>                        
+                        </div> 
+
+                        <div class="mb-3">
+                            <label for="name" class="form-label">Tempo/experiência na área</label>
+                            <input type="text" class="form-control imput-large" id="experiencia" placeholder="Fale um pouco sobre você" required>
+                        </div>
+
+                        <button type="submit" class="btn btn-dark w-100">Enviar</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
+
+//tela de aparelhos disponiveis//
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css"/>
+        <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
+
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="css/bootstrap-grid.rtl.min.css" type="text/css"/>
+
+
+        <title>Aparelhos Disponíveis</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <div class="hero-section parallax1">
+            <div class="container mt-2">
+                <h1 class=" row mb-4">Aparelhos disponíveis</h1>
+                <h2 class="text-center mb-2">Força</h2>
+                <div class="row text-center">
+                    <div class="col-md-3">
+                        <h4>•Halteres</h4>
+                        <img src="assets/todos_aparelhos/halteres.png" alt="Halteres" class="img-fluid mb-2 w-50">
+                    </div>
+                    <div class="col-md-3">
+                        <h4>•Polia</h4>
+                        <img src="assets/todos_aparelhos/polia.png" alt="Polia" class="img-fluid mb-2 w-50">
+                    </div>
+                    <div class="col-md-3">
+                        <h4>•Remada</h4>
+                        <img src="assets/todos_aparelhos/remada.png" alt="Remada" class="img-fluid mb-2 w-50">
+                    </div>
+                    <div class="col-md-3">
+                        <h4>•Smith</h4>
+                        <img src="assets/todos_aparelhos/smith.png" alt="Smith" class="img-fluid mb-2 w-50">
+                    </div>
+                </div>
+                <div class="row text-center">
+                    <div class="col-md-3">
+                        <h4>•Barra Fixa</h4>
+                        <img src="assets/todos_aparelhos/barra_fixa.png" alt="Barra Fixa" class="img-fluid mb-2 w-50">
+                    </div>
+                    <div class="col-md-3">
+                        <h4>•Supino</h4>
+                        <img src="assets/todos_aparelhos/supino.png" alt="Supino" class="img-fluid mb-2 w-50">
+                    </div>
+                    <div class="col-md-3">
+                        <h4>•Leg Press</h4>
+                        <img src="assets/todos_aparelhos/leg_press.png" alt="Leg Press" class="img-fluid mb-2 w-75">
+                    </div>
+                    <div class="col-md-3">
+                        <h4>•Agachamento</h4>
+                        <img src="assets/todos_aparelhos/agachamento.png" alt="Agachamento" class="img-fluid mb-2 w-75">
+                    </div>
+                </div>
+            </div>
+        </div>        
+        <div class="hero-section parallax2">
+            <div class="container mt-2">
+                <div class="d-flex">
+                    <h2 class="mover_direita1 mt-2">Cárdio</h2>
+                    <h2 class="mover_direita2 mb-2">Alongamento<br>e <br>Flexibilidade</h2>
+                </div>
+                <div class="row text-center">
+                    <div class="col-md-3">
+                        <h4>•Esteira</h4>
+                        <img src="assets/todos_aparelhos/esteira.png" alt="Halteres" class="img-fluid mb-2 w-50">
+                    </div>
+                    <div class="col-md-3">
+                        <h4>•Elíptico</h4>
+                        <img src="assets/todos_aparelhos/eliptico.png" alt="Polia" class="img-fluid mb-2 w-50">
+                    </div>
+                    <div class="col-md-3">
+                        <h4>•Bola suiça</h4>
+                        <img src="assets/todos_aparelhos/bola_suica.png" alt="Remada" class="img-fluid mb-2 w-75">
+                    </div>
+                    <div class="col-md-3">
+                        <h4>•Faixa elástica</h4>
+                        <img src="assets/todos_aparelhos/faixa_elastica.png" alt="Smith" class="img-fluid mb-2 w-25">
+                    </div>
+                </div>
+                <div class="row text-center">
+                    <div class="col-md-3">
+                        <h4>•Bike</h4>
+                        <img src="assets/todos_aparelhos/bike.png" alt="Barra Fixa" class="img-fluid mb-2 w-50">
+                    </div>
+                    <div class="col-md-3">
+                        <h4>•Remador</h4>
+                        <img src="assets/todos_aparelhos/remador.png" alt="Supino" class="img-fluid mb-2 w-75">
+                    </div>
+                    <div class="col-md-6">
+                        <h4>•Tapete de alongamento</h4>
+                        <img src="assets/todos_aparelhos/tapete.png" alt="Leg Press" class="img-fluid mb-2 w-25">
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <div class="hero-section parallax3">
+            <div class="container mt-2">
+                <div class="d-flex">
+                    <h2 class="mover_direita1 mt-2">Funcionalidade</h2>
+                    <h2 class="mover_direita2 mb-2">Pesagem e Medição</h2>
+                </div>
+                <div class="d-flex">
+                    <h4 class="mover_direita3 mt-4">•BOSU<br>•Kettlebell<br>•TRX<br>•Step</h4>
+                    <h4 class="mover_direita4 mt-4">•Balança<br>•Medidor de altura<br>•Medidor de circunferência</h4>
+                </div>                                
+            </div>
+        </div>
+    </body>
+</html>
+//***//
+
+* Definindo a imagem de fundo para a seção inicial */
+.hero-section {
+    background-position: center;
+    background-attachment: scroll;
+    background-size: cover;
+    height: 100vh; /* 100% da altura da tela */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+/Imagem 1/
+.parallax1 {
+    background-image: url(assets/aparelhos1.png)
+}
+/Imagem 2/
+.parallax2 {
+    background-image: url(assets/aparelhos2.png)
+}
+/Imagem 3/
+.parallax3 {
+    background-image: url(assets/aparelhos3.png)
+}
+.mover_direita1 {
+    margin-left: 250px;
+}
+.mover_direita2 {
+    margin-left: 500px;
+}
+.mover_direita3 {
+    margin-left: 300px;
+}
+.mover_direita4 {
+    margin-left: 550px;
+}
+.card {
+    background-color: gray;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 100%;
+    max-width: 400px;
+}
+.container-cadastro {
+    background-image: url(assets/cadastro.png);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.imput-large {
+    height: 100px;
+    resize: none;
+}
+.linha-separadora {
+    border: 0;
+    height: 150px;
+    background-color: gold;
+    width: 500%;
+}
