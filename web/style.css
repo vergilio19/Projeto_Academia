@@ -1,0 +1,64 @@
+/* Definindo a imagem de fundo para a seção inicial */
+.hero-section {
+    background-position: center;
+    background-attachment: scroll;
+    background-size: cover;
+    height: 100vh; /* 100% da altura da tela */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+/*Imagem 1*/
+.parallax1 {
+    background-image: url(assets/aparelhos1.png)
+}
+/*Imagem 2*/
+.parallax2 {
+    background-image: url(assets/aparelhos2.png)
+}
+/*Imagem 3*/
+.parallax3 {
+    background-image: url(assets/aparelhos3.png)
+}
+.mover_direita1 {
+    margin-left: 250px;
+}
+.mover_direita2 {
+    margin-left: 500px;
+}
+.mover_direita3 {
+    margin-left: 300px;
+}
+.mover_direita4 {
+    margin-left: 550px;
+}
+.card {
+    background-color: gray;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 100%;
+    max-width: 400px;
+}
+.container-cadastro {
+    background-image: url(assets/cadastro.png);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.imput-large {
+    height: 100px;
+    resize: none;
+}
+.linha-separadora {
+    border: 0;
+    height: 150px;
+    background-color: gold;
+    width: 500%;
+}
+
+
